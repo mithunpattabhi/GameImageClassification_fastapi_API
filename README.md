@@ -69,7 +69,7 @@ Accepts an image file and returns the predicted game label with confidence.
 ```
 **3) Start the FastAPI Server**
 ```3) Start the FastAPI Server
-   uvicorn app:app --reload
+   uvicorn main:app --reload
 ```
 **4) Test the API**
 ```4) Test the API

@@ -55,7 +55,9 @@ Accepts an image file and returns the predicted game label with confidence.
 }
 ```
 
-##How to Run Locally:
+---
+
+## How to Run Locally:
 **1) Clone the Repository**
 ```1) Clone the Repository
    git clone https://github.com/your-username/GameImageClassification_fastapi_API.git

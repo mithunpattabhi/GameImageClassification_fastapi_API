@@ -55,20 +55,21 @@ Accepts an image file and returns the predicted game label with confidence.
 }
 ```
 
-**How to Run Locally:**
+##How to Run Locally:
+**1) Clone the Repository**
 ```1) Clone the Repository
    git clone https://github.com/your-username/GameImageClassification_fastapi_API.git
    cd GameImageClassification_fastapi_API
 ```
-
+**2) Install Dependencies**
 ```2) Install Dependencies
    pip install -r requirements.txt
 ```
-
+**3) Start the FastAPI Server**
 ```3) Start the FastAPI Server
    uvicorn app:app --reload
 ```
-
+**4) Test the API**
 ```4) Test the API
-   uvicorn main:app --reload
+   http://127.0.0.1:8000/docs
 ```
